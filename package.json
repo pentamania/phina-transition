@@ -1,0 +1,24 @@
+{
+  "name": "phina-transition",
+  "libName": "phina-transition",
+  "version": "0.1.0",
+  "description": "phina plugin for scene transition",
+  "main": "dist/phina-transition.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "phina.js"
+  ],
+  "author": "pentamania",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "1.1.2",
+    "rollup-plugin-buble": "0.19.6",
+    "rollup-plugin-uglify": "6.0.2"
+  }
+}
